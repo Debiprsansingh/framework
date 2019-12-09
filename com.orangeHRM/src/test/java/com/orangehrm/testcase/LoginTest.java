@@ -18,6 +18,7 @@ public class LoginTest extends TestBase {
 		driver.findElement(By.xpath(or.getProperty("bmlogin"))).sendKeys("Admin");
 		driver.findElement(By.xpath(or.getProperty("password"))).sendKeys("admin123");
 		driver.findElement(By.xpath(or.getProperty("loginbutton"))).click();
+	//driver.findElement(By.xpath(or.getProperty("loginbutton"))).click();
 		
 		
 		
@@ -26,8 +27,8 @@ public class LoginTest extends TestBase {
 		//Assert.assertTrue(isElementPresent(By.xpath(or.getProperty("admin"))),"element Not present");
 		//Reporter.log("Login successfully");
 		//Reporter.log("<a href=\"C:\\Users\\new2\\Desktop\\selenium project\\download.jpg\">screenshot</a>");
-		type("bmlogin_xpath", "Admin");
-		type("password_xpath", "admin123");
+		type("bmlogin_xpath","Admin");
+		type("password_xpath","admin123");
 		click("loginbutton_xpath");
 		
 		

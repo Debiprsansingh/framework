@@ -23,10 +23,6 @@
 					<class name="com.orangehrm.testcase.AddEmployee" />
 				</classes>
 			</test> <!-- Test -->
-				<test name="pim">
-				<classes>
-					<class name="com.orangehrm.testcase.PimAdd" />
-				</classes>
-			</test> <!-- Test -->
+			
 			
 </suite> <!-- Suite -->

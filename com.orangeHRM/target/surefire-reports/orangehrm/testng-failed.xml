@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [orangehrm]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.orangehrm.listener.CustomListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="homepage(failed)">
+    <classes>
+      <class name="com.orangehrm.testcase.BtnForAddEmp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickAdminBtn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcase.BtnForAddEmp -->
+    </classes>
+  </test> <!-- homepage(failed) -->
+  <test thread-count="5" verbose="0" name="add(failed)">
+    <classes>
+      <class name="com.orangehrm.testcase.AddEmployee">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addEmployee" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcase.AddEmployee -->
+    </classes>
+  </test> <!-- add(failed) -->
+</suite> <!-- Failed suite [orangehrm] -->
