@@ -1,0 +1,11 @@
+15:18:23,346 DEBUG devpinoyLogger:51 - config file loded
+15:18:23,350 DEBUG devpinoyLogger:65 - OR file loded
+15:18:26,475 DEBUG devpinoyLogger:80 - chrome launched
+15:18:29,833 DEBUG devpinoyLogger:89 - Navigated to testhttps://opensource-demo.orangehrmlive.com/
+15:18:31,026 DEBUG devpinoyLogger:17 - Inside Login Test
+15:18:38,034 DEBUG devpinoyLogger:24 - login successfully
+15:18:40,723 DEBUG devpinoyLogger:13 - login into homepage
+15:18:49,407 DEBUG devpinoyLogger:29 - employee added is unsuccessful
+15:18:57,964 DEBUG devpinoyLogger:29 - employee added is unsuccessful
+15:19:06,490 DEBUG devpinoyLogger:29 - employee added is unsuccessful
+15:19:07,631 DEBUG devpinoyLogger:111 - test execution completed 

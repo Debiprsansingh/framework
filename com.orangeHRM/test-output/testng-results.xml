@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="orangehrm" duration-ms="7090" started-at="2019-11-19T12:04:29Z" finished-at="2019-11-19T12:04:36Z">
+    <groups>
+    </groups>
+    <test name="LogIn" duration-ms="7090" started-at="2019-11-19T12:04:29Z" finished-at="2019-11-19T12:04:36Z">
+      <class name="com.orangehrm.testcase.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.testcase.LoginTest@4e718207]" name="setUp" is-config="true" duration-ms="8493" started-at="2019-11-19T17:34:20Z" finished-at="2019-11-19T17:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="adminlogin()[pri:0, instance:com.orangehrm.testcase.LoginTest@4e718207]" name="adminlogin" duration-ms="4826" started-at="2019-11-19T17:34:29Z" finished-at="2019-11-19T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+      </class> <!-- com.orangehrm.testcase.LoginTest -->
+      <class name="com.orangehrm.testcase.BtnForAddEmp">
+        <test-method status="PASS" signature="clickAdminBtn()[pri:0, instance:com.orangehrm.testcase.BtnForAddEmp@1d371b2d]" name="clickAdminBtn" duration-ms="2211" started-at="2019-11-19T17:34:34Z" finished-at="2019-11-19T17:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdminBtn -->
+      </class> <!-- com.orangehrm.testcase.BtnForAddEmp -->
+      <class name="com.orangehrm.testcase.AddEmployee">
+        <test-method status="FAIL" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.testcase.AddEmployee@543c6f6d]" name="addEmployee" duration-ms="0" started-at="2019-11-19T17:34:36Z" data-provider="getData" finished-at="2019-11-19T17:34:36Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void com.orangehrm.testcase.AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void com.orangehrm.testcase.AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:263)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:425)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+      </class> <!-- com.orangehrm.testcase.AddEmployee -->
+    </test> <!-- LogIn -->
+  </suite> <!-- orangehrm -->
+</testng-results>
